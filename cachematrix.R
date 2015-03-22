@@ -1,12 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
 #The following functions cache the inverse of a matrix  to avoid the time consuming process of  computing it repeatedly.
 
 ## MakeCacheMatrix creates a special "matrix" object that can cache its inverse
-
-
-
-
 
 makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL # initializes the values of 'm' to NULL, setting its default value
